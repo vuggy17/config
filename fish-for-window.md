@@ -90,7 +90,9 @@ Install starship [link](https://starship.rs/guide/#%F0%9F%9A%80-installation)
 Copy content of [fish config](https://github.com/vuggy17/config/blob/main/config.fish) to ~/.config/config.fish
 
 ## Step 9
-Start fish in bash
+Automatically start fish in bash
+Copy this script to your .bashrc
+
 ```sh
 /c/Windows/System32/chcp.com 65001 > /dev/null 2>&1
 if [ -t 1 ]; then
