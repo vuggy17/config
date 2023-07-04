@@ -91,6 +91,7 @@ Copy content of [fish config](https://github.com/vuggy17/config/blob/main/config
 
 ## Step 9
 Automatically start fish in bash
+
 Copy this script to your .bashrc
 
 ```sh
