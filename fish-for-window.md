@@ -76,3 +76,31 @@ if [ -t 1 ]; then
 exec fish
 fi
 ```
+
+## Step 6
+Install oh my fish
+```sh
+curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
+```
+
+## Step 7
+Install starship [link](https://starship.rs/guide/#%F0%9F%9A%80-installation)
+
+## Step 8
+Copy content of [fish config](https://github.com/vuggy17/config/blob/main/config.fish) to ~/.config/config.fish
+
+## Step 9
+Start fish in bash
+```sh
+/c/Windows/System32/chcp.com 65001 > /dev/null 2>&1
+if [ -t 1 ]; then
+  exec fish
+fi
+```
+
+## Step 10
+Restart terminal
+```sh
+ source ~/.config/fish/config.fish
+```
+
